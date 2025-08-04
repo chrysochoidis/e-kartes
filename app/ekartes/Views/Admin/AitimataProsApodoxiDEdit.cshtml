@@ -1,0 +1,121 @@
+﻿@model Ekartes.Models.Dikaiouxos
+
+@{
+    ViewBag.Title = "Δικαιούχος";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+<div style="border: 3px solid; border-color: gray; margin-left: 100px; margin-right: 100px; padding: 0px; border-radius: 1em; background-color: #303030; ">
+    <h2 style="color:white; text-align:center;">@Html.DisplayFor(model => model.Vathmos) (@Html.DisplayFor(model => model.O_S)) @Html.DisplayFor(model => model.Epitheto) @Html.DisplayFor(model => model.Onoma)</h2>
+</div>
+
+<hr />
+
+<div style="border: 2px solid; margin-left: 100px; margin-right: 100px; padding: 0px; border-radius: 1em; background-color: white;">
+    <div style="background-color: lightgray; border-bottom: 2px solid; border-bottom-color: black; padding: 5px; border-top-right-radius: 1em; border-top-left-radius: 1em; ">
+        <br />
+        <br />
+    </div>
+
+    <div>
+        <br />
+
+        <div>
+            @Html.DisplayFor(model => model.KatastasiD)
+            <div class="col-md-3" style="margin-left:190px; text-align:right;">
+                <b>@Html.DisplayNameFor(model => model.KatastasiD)</b>
+            </div>
+        </div>
+
+        <div>
+            @Html.DisplayFor(model => model.AM)
+            <div class="col-md-3" style="margin-left:190px; text-align:right;">
+                <b>@Html.DisplayNameFor(model => model.AM)</b>
+            </div>
+        </div>
+
+        <div>
+            @Html.DisplayFor(model => model.Onoma)
+            <div class="col-md-3" style="margin-left:190px; text-align:right;">
+                <b>@Html.DisplayNameFor(model => model.Onoma)</b>
+            </div>
+        </div>
+
+        <div>
+            @Html.DisplayFor(model => model.Epitheto)
+            <div class="col-md-3" style="margin-left:190px; text-align:right;">
+                <b>@Html.DisplayNameFor(model => model.Epitheto)</b>
+            </div>
+        </div>
+
+        <div>
+            @Html.DisplayFor(model => model.AT)
+            <div class="col-md-3" style="margin-left:190px; text-align:right;">
+                <b>@Html.DisplayNameFor(model => model.AT)</b>
+            </div>
+        </div>
+
+        <div>
+            @Html.DisplayFor(model => model.Monada)
+            <div class="col-md-3" style="margin-left:190px; text-align:right;">
+                <b>@Html.DisplayNameFor(model => model.Monada)</b>
+            </div>
+        </div>
+
+        <div>
+            @Html.DisplayFor(model => model.Vathmos)
+            <div class="col-md-3" style="margin-left:190px; text-align:right;">
+                <b>@Html.DisplayNameFor(model => model.Vathmos)</b>
+            </div>
+        </div>
+
+        <div>
+            @Html.DisplayFor(model => model.O_S)
+            <div class="col-md-3" style="margin-left:190px; text-align:right;">
+                <b>@Html.DisplayNameFor(model => model.O_S)</b>
+            </div>
+        </div>
+
+        <br />
+
+        @if (Model.FilesDikaiouxos.Any(f => f.FileType == Ekartes.Models.FileType.Pistopoiitiko))
+        {
+            <div style="text-align:center">
+                <b>Πιστοποιητικό Οικογενειακής Κατάστασης</b>
+            </div>
+            <br />
+            <div style="text-align:center">
+                <iframe src="~/FileDikaiouxos?id=@Model.FilesDikaiouxos.First(f => f.FileType == Ekartes.Models.FileType.Pistopoiitiko).ID" style="height:500px; width:500px;"></iframe>
+                <br />
+                @Html.ActionLink("Δες το αρχείο σε νέα καρτέλα", "FilePreview", "Dikaiouxos", new { id = @Model.FilesDikaiouxos.First(f => f.FileType == Ekartes.Models.FileType.Pistopoiitiko).ID }, htmlAttributes: new { target = "_blank" })
+            </div>
+        }
+
+        <br />
+
+        @if (Model.FilesDikaiouxos.Any(f => f.FileType == Ekartes.Models.FileType.FATayt_d))
+        {
+            <div style="text-align:center">
+                <b>Φ/Α Ταυτότητας</b>
+            </div>
+            <br />
+            <div style="text-align:center">
+                <iframe src="~/FileDikaiouxos?id=@Model.FilesDikaiouxos.First(f => f.FileType == Ekartes.Models.FileType.FATayt_d).ID" style="height:500px; width:500px;"></iframe>
+                <br />
+                @Html.ActionLink("Δες το αρχείο σε νέα καρτέλα", "FilePreview", "Dikaiouxos", new { id = @Model.FilesDikaiouxos.First(f => f.FileType == Ekartes.Models.FileType.FATayt_d).ID }, htmlAttributes: new { target = "_blank" })
+            </div>
+            <br />
+        }
+
+    </div>
+
+
+    <br />
+
+    <div style="background-color: lightgray; border-top: 2px solid; border-top-color: black; padding: 5px; border-bottom-right-radius: 1em; border-bottom-left-radius: 1em;">
+        <br />
+        <p>
+            @Html.ActionLink("Πίοω ", "AitimataEditD")
+        </p>
+    </div>
+</div>
+

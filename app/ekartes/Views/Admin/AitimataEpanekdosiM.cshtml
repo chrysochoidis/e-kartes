@@ -1,0 +1,89 @@
+﻿@model IEnumerable<Ekartes.Models.Aitima>
+
+@{
+    ViewBag.Title = "Αιτήματα Επανέκδοσης Κάρτας Μέλους";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div style="border: 3px solid; border-color: gray; margin-left: 100px; margin-right: 100px; padding: 0px; border-radius: 1em; background-color: #303030">
+    <h2 style="color:white;text-align:center;">Αιτήματα Επανέκδοσης Κάρτας Μέλους</h2>
+</div>
+<hr />
+<div style="border: 2px solid; margin-left: 100px; margin-right: 100px; padding: 0px; border-radius: 1em; background-color: white;">
+    <div style="background-color: lightgray; border-bottom: 2px solid; border-bottom-color: black; padding: 5px; border-top-right-radius: 1em; border-top-left-radius: 1em; ">
+        <br />
+        <br />
+    </div>
+    <br />
+
+
+    <table class="table">
+        <tr>
+            <th>Α/Α</th>
+            <th>
+                ΑΜ Δικαιούχου
+            </th>
+            <th>
+                Βαθμός
+            </th>
+            <th>
+                Ο_Σ
+            </th>
+            <th>
+                Όνομα
+            </th>
+            <th>
+                Επώνυμο
+            </th>
+
+            <th>
+
+            </th>
+            <th>
+
+            </th>
+            <th>
+
+            </th>
+
+        </tr>
+        @{
+            int count = 0;
+            foreach (var item in Model)
+            {
+                count++;
+                <tr>
+                    <td>@count</td>
+                    <td>
+                        @Html.DisplayFor(ModelItem => item.Dikaiouxos.AM)
+                    </td>
+                    <td>@Html.DisplayFor(ModelItem => item.Dikaiouxos.Vathmos)</td>
+                    <td>@Html.DisplayFor(ModelItem => item.Dikaiouxos.O_S)</td>
+                    <td>@Html.DisplayFor(ModelItem => item.Dikaiouxos.Onoma)</td>
+                    <td>
+                        @Html.DisplayFor(ModelItem => item.Dikaiouxos.Epitheto)
+                    </td>
+                    <td>
+                        <button class="btn btn-primary" >@Html.ActionLink("Δές το αίτημα", "AitimataProsApodoxiMEpanekdosi", new { id = item.Melos.ID }, new { @style = "color:white" })</button>
+                    </td>
+                    <td>
+                        <button class="btn btn-success">@Html.ActionLink("Συνηγορώ", "Apodekto", new { id = item.ID }, new { @style = "color:black" })</button>
+                    </td>
+                    <td>
+                        <button class="btn btn-danger">@Html.ActionLink("Δεν Συνηγορώ", "MiApodekto", new { id = item.ID }, new { @style = "color:black" })</button>
+                    </td>
+                </tr>
+
+            }
+        }
+    </table>
+    <br />
+    <br />
+    <br />
+    <div style="background-color: lightgray; border-top: 2px solid; border-top-color: black; padding: 5px; border-bottom-right-radius: 1em; border-bottom-left-radius: 1em;">
+        <br />
+        @Html.ActionLink("Πίσω", "Aitimata")
+        <br />
+    </div>
+</div>
+

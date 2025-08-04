@@ -1,0 +1,96 @@
+﻿@model Ekartes.Models.Melos
+
+@{
+    ViewBag.Title = "Ektyposi";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<body>
+    <table width="900" border="0" style=" outline-style: dotted; text-align:left; margin: 50px; background-color: hsla(65,85%,72%,1.00); table-layout: fixed; word-wrap: break-word; font-size: 11px; font-family:Arial">
+        <tbody>
+            <tr>
+                <td rowspan="4" style="text-align:center"><img src="~/FileMelos?id=@Model.FilesMelos.First(f => f.FileType == Ekartes.Models.FileType.Photo_m).ID" width="100" height="100" /></td>
+                <td colspan="2" style="text-align:center"><strong>ΥΠΟΥΡΓΕΙΟ ΕΘΝΙΚΗΣ ΑΜΥΝΑΣ</strong></td>
+                <td rowspan="4" style="text-align:center"><img src="~/Images/GES3.png" width="80" height="80" /></td>
+                <td rowspan="11" width="5" style="outline-style:dotted;font-size:7px"><b>Αναδιπλώστε &nbsp; &nbsp; &nbsp; εδώ</b></td>
+                <td rowspan="11" width="2" style="font-size:8px">&nbsp;</td>
+                <td><strong>ΑΡΧΗ ΕΚΔΟΣΗΣ:</strong></td>
+                <td>ΓΕΣ/ΔΕΝΔΗΣ </td>
+                <td rowspan="4" style="text-align:center"></td>
+                <td rowspan="4" style="text-align:center"><img src="~/Images/GES3.png" width="80" height="80" alt="" /></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center"><strong>ΓΕΝΙΚΟ ΕΠΙΤΕΛΕΙΟ ΣΤΡΑΤΟΥ</strong></td>
+                <td><strong>ΗΜΕΡ. ΕΚΔΟΣΗΣ:</strong></td>
+                <td> @ViewBag.HmniaEkdosis </td>
+            </tr>
+            <tr style="text-align:center">
+                <td colspan="2"><strong>&nbsp;</strong></td>
+                <td>&nbsp;</td>
+                <td rowspan="3"><img src="/Admin/BarcodeImage?barcodeText=@Model.KwdikosKartas" height="80" width="80" /></td>
+            </tr>
+            <tr style="text-align:center">
+                <td colspan="2"><strong>ΚΑΡΤΑ ΜΕΛΟΥΣ<br>ΟΙΚΟΓΕΝΕΙΑΣ ΣΤΡΑΤΙΩΤΙΚΟΥ </strong></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><strong>AAK :</strong></td>
+                <td> @Model.KwdikosKartas </td>
+                <td><strong>ΙΣΧΥΕΙ ΜΕΧΡΙ:</strong></td>
+                <td> @ViewBag.HmniaLiksis </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr style="text-align:center">
+                <td colspan="2"><strong><u>ΣΤΟΙΧΕΙΑ ΚΑΤΟΧΟΥ</u></strong></td>
+                <td colspan="2"><strong><u>ΣΤΟΙΧΕΙΑ ΔΙΚΑΙΟΥΧΟΥ</u></strong></td>
+                <td colspan="4" style="text-align:left">1. &nbsp;  Το παρόν είναι Στρατιωτικό Έγγραφο και η χρήση του είναι αυστηρά προσωπική.</td>
+            </tr>
+            <tr>
+                <td><strong>ΟΝΟΜΑ : &nbsp; <br></strong></td>
+                <td>@Model.Onoma</td>
+                <td><strong>ΟΝΟΜΑ :</strong></td>
+                <td>@Model.Dikaiouxos.Onoma</td>
+                <td colspan="4">2. &nbsp; Απώλεια ή παράνομος κατοχή – χρήση, θα επιφέρει τις νόμιμες κυρώσεις. </td>
+            </tr>
+            <tr>
+                <td><strong>ΕΠΩΝΥΜΟ :</strong></td>
+                <td>@Model.Epitheto</td>
+                <td><strong>ΕΠΩΝΥΜΟ :</strong></td>
+                <td> @Model.Dikaiouxos.Epitheto </td>
+                <td colspan="4">3. &nbsp; Ο ανευρίσκων το παρόν υποχρεούται να το παραδώσει στις Αστυνομικές ή </td>
+            </tr>
+            <tr>
+                <td><strong>ΣΥΓΓΕΝΕΙΑ :</strong></td>
+                <td>@Model.Sygeneia</td>
+                <td><strong>ΙΔΙΟΤΗΤΑ :</strong></td>
+                <td> @Model.Dikaiouxos.Vathmos </td>
+                <td colspan="4"> &nbsp;  &nbsp;  &nbsp; Στρατιωτικές Αρχές ή να επικοινωνήσει με το 210-6553171.</td>
+            </tr>
+            <tr>
+                <td><strong>ΑΡ.ΤΑΥΤ. :</strong></td>
+
+                <td>@Model.AT</td>
+                <td><strong>ΑΜ :</strong></td>
+                <td>@Model.Dikaiouxos.AM </td>
+                <td colspan="4">4. &nbsp; Επιτρέπεται στον κάτοχο η είσοδος σε Στρατιωτικά Πρατήρια - ΚΑΑΥ.</td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+</html>
+
+<div style="text-align:center">
+    <button type="button" class="btn btn-primary">@Html.ActionLink("Πίσω", "MeliDikaiouxou", new { id = Model.Dikaiouxos.ID }, null)</button>
+    <button type="button" class="btn btn-primary" onclick="myfunction()">Εκτύπωση</button>
+
+    <script>
+        function myfunction() {
+            window.print();
+        }
+    </script>
+</div>

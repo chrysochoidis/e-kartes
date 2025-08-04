@@ -1,0 +1,688 @@
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\ekartes.dll.config
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\ekartes.dll
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\ekartes.pdb
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\Antlr3.Runtime.dll
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\EntityFramework.dll
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\EntityFramework.SqlServer.dll
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\Microsoft.Owin.dll
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\Microsoft.Owin.Security.dll
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\Microsoft.Owin.Security.Google.dll
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\Microsoft.Web.Infrastructure.dll
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\Newtonsoft.Json.dll
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\Owin.dll
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\System.Web.Helpers.dll
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\System.Web.Mvc.dll
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\System.Web.Optimization.dll
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\System.Web.Razor.dll
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\System.Web.WebPages.Deployment.dll
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\System.Web.WebPages.dll
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\System.Web.WebPages.Razor.dll
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\WebGrease.dll
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\System.Web.Helpers.xml
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\System.Web.Mvc.xml
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\System.Web.Optimization.xml
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\System.Web.Razor.xml
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\System.Web.WebPages.xml
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\System.Web.WebPages.Deployment.xml
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\System.Web.WebPages.Razor.xml
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\Antlr3.Runtime.pdb
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\Newtonsoft.Json.xml
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\EntityFramework.xml
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\EntityFramework.SqlServer.xml
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\Microsoft.Owin.xml
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\Microsoft.Owin.Security.xml
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\Microsoft.Owin.Security.Google.xml
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\obj\Debug\ekartes.csprojResolveAssemblyReference.cache
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\obj\Debug\ekartes.dll
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\obj\Debug\ekartes.pdb
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\obj\Debug\ekartes.Migrations.InitialCreate.resources
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\obj\Debug\ekartes.csproj.GenerateResource.Cache
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\PagedList.dll
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\PagedList.Mvc.dll
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\PagedList.xml
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\PagedList.Mvc.xml
+c:\users\tasos\documents\visual studio 2013\Projects\ekartes\ekartes\bin\Rotativa.dll
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\ekartes.dll.config
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\ekartes.dll
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\ekartes.pdb
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\Antlr3.Runtime.dll
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\EntityFramework.dll
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\EntityFramework.SqlServer.dll
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\Microsoft.Owin.dll
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\Microsoft.Owin.Security.dll
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\Newtonsoft.Json.dll
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\Owin.dll
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\PagedList.dll
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\PagedList.Mvc.dll
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\Rotativa.dll
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\System.Web.Helpers.dll
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\System.Web.Mvc.dll
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\System.Web.Optimization.dll
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\System.Web.Razor.dll
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\System.Web.WebPages.dll
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\System.Web.WebPages.Razor.dll
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\WebGrease.dll
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\PagedList.xml
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\PagedList.Mvc.xml
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\System.Web.Helpers.xml
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\System.Web.Mvc.xml
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\System.Web.Optimization.xml
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\System.Web.Razor.xml
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\System.Web.WebPages.xml
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\System.Web.WebPages.Razor.xml
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\Antlr3.Runtime.pdb
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\Newtonsoft.Json.xml
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\EntityFramework.xml
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\EntityFramework.SqlServer.xml
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\Microsoft.Owin.xml
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\Microsoft.Owin.Security.xml
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\obj\Debug\ekartes.csprojResolveAssemblyReference.cache
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\obj\Debug\ekartes.Migrations.InitialCreate.resources
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\obj\Debug\ekartes.csproj.GenerateResource.Cache
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\obj\Debug\ekartes.dll
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\obj\Debug\ekartes.pdb
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\ekartes.dll.config
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\ekartes.dll
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\ekartes.pdb
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\Antlr3.Runtime.dll
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\EntityFramework.dll
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\EntityFramework.SqlServer.dll
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\Microsoft.Owin.dll
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\Microsoft.Owin.Security.dll
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\Newtonsoft.Json.dll
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\Owin.dll
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\PagedList.dll
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\PagedList.Mvc.dll
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\Rotativa.dll
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\System.Web.Helpers.dll
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\System.Web.Mvc.dll
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\System.Web.Optimization.dll
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\System.Web.Razor.dll
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\System.Web.WebPages.Deployment.dll
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\System.Web.WebPages.dll
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\System.Web.WebPages.Razor.dll
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\WebGrease.dll
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\PagedList.xml
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\PagedList.Mvc.xml
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\System.Web.Helpers.xml
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\System.Web.Mvc.xml
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\System.Web.Optimization.xml
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\System.Web.Razor.xml
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\System.Web.WebPages.xml
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\System.Web.WebPages.Deployment.xml
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\System.Web.WebPages.Razor.xml
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\Antlr3.Runtime.pdb
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\Newtonsoft.Json.xml
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\EntityFramework.xml
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\EntityFramework.SqlServer.xml
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\Microsoft.Owin.xml
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\Microsoft.Owin.Security.xml
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\obj\Debug\ekartes.csprojResolveAssemblyReference.cache
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\obj\Debug\ekartes.Migrations.InitialCreate.resources
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\obj\Debug\ekartes.csproj.GenerateResource.Cache
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\obj\Debug\ekartes.dll
+C:\Users\a.xrisoxoidis\Desktop\ID\ekartes\ekartes\obj\Debug\ekartes.pdb
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\QRCoder.dll
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\bin\UnityEngine.dll
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\obj\Debug\ekartes.Migrations.ConfirmPassword.resources
+C:\Users\Tasos\Desktop\ID\ekartes\ekartes\obj\Debug\ekartes.Migrations.ConfirmPassword2.resources
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\ekartes.dll.config
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\ekartes.dll
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\ekartes.pdb
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\Antlr3.Runtime.dll
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\EntityFramework.dll
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\EntityFramework.SqlServer.dll
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\Microsoft.Owin.dll
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\Microsoft.Owin.Security.dll
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\Newtonsoft.Json.dll
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\Owin.dll
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\PagedList.dll
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\PagedList.Mvc.dll
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\QRCoder.dll
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\Rotativa.dll
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\System.Web.Helpers.dll
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\System.Web.Mvc.dll
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\System.Web.Optimization.dll
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\System.Web.Razor.dll
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\System.Web.WebPages.dll
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\System.Web.WebPages.Razor.dll
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\UnityEngine.dll
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\WebGrease.dll
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\PagedList.xml
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\PagedList.Mvc.xml
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\System.Web.Helpers.xml
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\System.Web.Mvc.xml
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\System.Web.Optimization.xml
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\System.Web.Razor.xml
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\System.Web.WebPages.xml
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\System.Web.WebPages.Razor.xml
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\Antlr3.Runtime.pdb
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\Newtonsoft.Json.xml
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\EntityFramework.xml
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\EntityFramework.SqlServer.xml
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\Microsoft.Owin.xml
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\Microsoft.Owin.Security.xml
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Tasos\Desktop\ekartes\ekartes\obj\Debug\ekartes.csprojResolveAssemblyReference.cache
+C:\Users\Tasos\Desktop\ekartes\ekartes\obj\Debug\ekartes.Migrations.InitialCreate.resources
+C:\Users\Tasos\Desktop\ekartes\ekartes\obj\Debug\ekartes.Migrations.ConfirmPassword.resources
+C:\Users\Tasos\Desktop\ekartes\ekartes\obj\Debug\ekartes.Migrations.ConfirmPassword2.resources
+C:\Users\Tasos\Desktop\ekartes\ekartes\obj\Debug\ekartes.csproj.GenerateResource.Cache
+C:\Users\Tasos\Desktop\ekartes\ekartes\obj\Debug\ekartes.dll
+C:\Users\Tasos\Desktop\ekartes\ekartes\obj\Debug\ekartes.pdb
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\obj\Debug\ekartes.csprojResolveAssemblyReference.cache
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\obj\Debug\ekartes.Migrations.InitialCreate.resources
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\obj\Debug\ekartes.Migrations.ConfirmPassword.resources
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\obj\Debug\ekartes.Migrations.ConfirmPassword2.resources
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\obj\Debug\ekartes.csproj.GenerateResource.Cache
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\obj\Debug\ekartes.dll
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\obj\Debug\ekartes.pdb
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\ekartes.dll.config
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\ekartes.dll
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\ekartes.pdb
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\Antlr3.Runtime.dll
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\EntityFramework.dll
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\EntityFramework.SqlServer.dll
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\Microsoft.Owin.dll
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\Microsoft.Owin.Security.dll
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\Newtonsoft.Json.dll
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\Owin.dll
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\PagedList.dll
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\PagedList.Mvc.dll
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\QRCoder.dll
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\Rotativa.dll
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\System.Web.Helpers.dll
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\System.Web.Mvc.dll
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\System.Web.Optimization.dll
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\System.Web.Razor.dll
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\System.Web.WebPages.Deployment.dll
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\System.Web.WebPages.dll
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\System.Web.WebPages.Razor.dll
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\UnityEngine.dll
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\WebGrease.dll
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\PagedList.xml
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\PagedList.Mvc.xml
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\System.Web.Helpers.xml
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\System.Web.Mvc.xml
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\System.Web.Optimization.xml
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\System.Web.Razor.xml
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\System.Web.WebPages.xml
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\System.Web.WebPages.Deployment.xml
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\System.Web.WebPages.Razor.xml
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\Antlr3.Runtime.pdb
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\Newtonsoft.Json.xml
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\EntityFramework.xml
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\EntityFramework.SqlServer.xml
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\Microsoft.Owin.xml
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\Microsoft.Owin.Security.xml
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\CaptchaMvc.dll
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\CaptchaMvc.pdb
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\CaptchaMvc.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\ekartes.dll.config
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\ekartes.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\ekartes.pdb
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\Antlr3.Runtime.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\CaptchaMvc.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\EntityFramework.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\EntityFramework.SqlServer.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\Microsoft.Owin.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\Microsoft.Owin.Security.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\Newtonsoft.Json.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\Owin.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\PagedList.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\PagedList.Mvc.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\QRCoder.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\Rotativa.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\System.Web.Helpers.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\System.Web.Mvc.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\System.Web.Optimization.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\System.Web.Razor.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\System.Web.WebPages.Deployment.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\System.Web.WebPages.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\System.Web.WebPages.Razor.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\UnityEngine.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\WebGrease.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\CaptchaMvc.pdb
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\CaptchaMvc.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\PagedList.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\PagedList.Mvc.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\System.Web.Helpers.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\System.Web.Mvc.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\System.Web.Optimization.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\System.Web.Razor.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\System.Web.WebPages.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\System.Web.WebPages.Deployment.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\System.Web.WebPages.Razor.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\Antlr3.Runtime.pdb
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\Newtonsoft.Json.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\EntityFramework.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\EntityFramework.SqlServer.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\Microsoft.Owin.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\Microsoft.Owin.Security.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\obj\Debug\ekartes.csprojResolveAssemblyReference.cache
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\obj\Debug\ekartes.Migrations.InitialCreate.resources
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\obj\Debug\ekartes.Migrations.ConfirmPassword.resources
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\obj\Debug\ekartes.Migrations.ConfirmPassword2.resources
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\obj\Debug\ekartes.csproj.GenerateResource.Cache
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\obj\Debug\ekartes.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\ekartes2\ekartes\obj\Debug\ekartes.pdb
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\CaptchaMvc.dll
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\CaptchaMvc.pdb
+C:\Users\Tasos\Desktop\ekartes\ekartes\bin\CaptchaMvc.xml
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\Gma.QrCodeNet.Encoding.dll
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\Gma.QrCodeNet.Encoding.pdb
+C:\Users\a.xrisoxoidis\Desktop\ekartes\ekartes\bin\Gma.QrCodeNet.Encoding.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\ekartes.dll.config
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\ekartes.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\ekartes.pdb
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\Antlr3.Runtime.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\CaptchaMvc.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\EntityFramework.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\EntityFramework.SqlServer.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\Gma.QrCodeNet.Encoding.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\Microsoft.Owin.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\Microsoft.Owin.Security.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\Newtonsoft.Json.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\Owin.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\PagedList.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\PagedList.Mvc.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\QRCoder.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\Rotativa.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\System.Web.Helpers.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\System.Web.Mvc.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\System.Web.Optimization.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\System.Web.Razor.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\System.Web.WebPages.Deployment.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\System.Web.WebPages.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\System.Web.WebPages.Razor.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\UnityEngine.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\WebGrease.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\CaptchaMvc.pdb
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\CaptchaMvc.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\Gma.QrCodeNet.Encoding.pdb
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\Gma.QrCodeNet.Encoding.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\PagedList.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\PagedList.Mvc.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\System.Web.Helpers.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\System.Web.Mvc.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\System.Web.Optimization.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\System.Web.Razor.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\System.Web.WebPages.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\System.Web.WebPages.Deployment.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\System.Web.WebPages.Razor.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\Antlr3.Runtime.pdb
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\Newtonsoft.Json.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\EntityFramework.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\EntityFramework.SqlServer.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\Microsoft.Owin.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\Microsoft.Owin.Security.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\obj\Debug\ekartes.csprojResolveAssemblyReference.cache
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\obj\Debug\ekartes.Migrations.InitialCreate.resources
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\obj\Debug\ekartes.Migrations.ConfirmPassword.resources
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\obj\Debug\ekartes.Migrations.ConfirmPassword2.resources
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\obj\Debug\ekartes.csproj.GenerateResource.Cache
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\obj\Debug\ekartes.dll
+C:\Users\George Koulmandas\Desktop\23-1 me ta katharismena\teliko\ekartes\ekartes\obj\Debug\ekartes.pdb
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\ekartes.dll.config
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\ekartes.dll
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\ekartes.pdb
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\Antlr3.Runtime.dll
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\CaptchaMvc.dll
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\EntityFramework.dll
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\EntityFramework.SqlServer.dll
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\Gma.QrCodeNet.Encoding.dll
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\Microsoft.Owin.dll
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\Microsoft.Owin.Security.dll
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\Newtonsoft.Json.dll
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\Owin.dll
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\PagedList.dll
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\PagedList.Mvc.dll
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\QRCoder.dll
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\Rotativa.dll
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\System.Web.Helpers.dll
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\System.Web.Mvc.dll
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\System.Web.Optimization.dll
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\System.Web.Razor.dll
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\System.Web.WebPages.Deployment.dll
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\System.Web.WebPages.dll
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\System.Web.WebPages.Razor.dll
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\UnityEngine.dll
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\WebGrease.dll
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\CaptchaMvc.pdb
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\CaptchaMvc.xml
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\Gma.QrCodeNet.Encoding.pdb
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\Gma.QrCodeNet.Encoding.xml
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\PagedList.xml
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\PagedList.Mvc.xml
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\System.Web.Helpers.xml
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\System.Web.Mvc.xml
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\System.Web.Optimization.xml
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\System.Web.Razor.xml
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\System.Web.WebPages.xml
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\System.Web.WebPages.Deployment.xml
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\System.Web.WebPages.Razor.xml
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\Antlr3.Runtime.pdb
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\Newtonsoft.Json.xml
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\EntityFramework.xml
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\EntityFramework.SqlServer.xml
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\Microsoft.Owin.xml
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\Microsoft.Owin.Security.xml
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\obj\Debug\ekartes.csprojResolveAssemblyReference.cache
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\obj\Debug\ekartes.Migrations.InitialCreate.resources
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\obj\Debug\ekartes.Migrations.ConfirmPassword.resources
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\obj\Debug\ekartes.Migrations.ConfirmPassword2.resources
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\obj\Debug\ekartes.csproj.GenerateResource.Cache
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\obj\Debug\ekartes.dll
+C:\Users\George Koulmandas\Desktop\teliko 24-1\ekartes\ekartes\obj\Debug\ekartes.pdb
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\ekartes.dll.config
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\ekartes.dll
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\ekartes.pdb
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Antlr3.Runtime.dll
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\CaptchaMvc.dll
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\EntityFramework.dll
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\EntityFramework.SqlServer.dll
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Gma.QrCodeNet.Encoding.dll
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.Owin.dll
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.Owin.Security.dll
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Newtonsoft.Json.dll
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Owin.dll
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\PagedList.dll
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\PagedList.Mvc.dll
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\QRCoder.dll
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Rotativa.dll
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\System.Web.Helpers.dll
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\System.Web.Mvc.dll
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\System.Web.Optimization.dll
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\System.Web.Razor.dll
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\System.Web.WebPages.Deployment.dll
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\System.Web.WebPages.dll
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\System.Web.WebPages.Razor.dll
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\UnityEngine.dll
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\WebGrease.dll
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\CaptchaMvc.pdb
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\CaptchaMvc.xml
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Gma.QrCodeNet.Encoding.pdb
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Gma.QrCodeNet.Encoding.xml
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\PagedList.xml
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\PagedList.Mvc.xml
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\System.Web.Helpers.xml
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\System.Web.Mvc.xml
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\System.Web.Optimization.xml
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\System.Web.Razor.xml
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\System.Web.WebPages.xml
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\System.Web.WebPages.Deployment.xml
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\System.Web.WebPages.Razor.xml
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Antlr3.Runtime.pdb
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Newtonsoft.Json.xml
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\EntityFramework.xml
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\EntityFramework.SqlServer.xml
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.Owin.xml
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.Owin.Security.xml
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\obj\Debug\ekartes.csprojResolveAssemblyReference.cache
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\obj\Debug\ekartes.Migrations.InitialCreate.resources
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\obj\Debug\ekartes.Migrations.ConfirmPassword.resources
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\obj\Debug\ekartes.Migrations.ConfirmPassword2.resources
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\obj\Debug\ekartes.csproj.GenerateResource.Cache
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\obj\Debug\ekartes.dll
+C:\Users\George Koulmandas\Desktop\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\obj\Debug\ekartes.pdb
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\ekartes.dll.config
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\ekartes.dll
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\ekartes.pdb
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Antlr3.Runtime.dll
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\CaptchaMvc.dll
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\EntityFramework.dll
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\EntityFramework.SqlServer.dll
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Gma.QrCodeNet.Encoding.dll
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.Owin.dll
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.Owin.Security.dll
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.Owin.Security.Google.dll
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.Web.Infrastructure.dll
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Newtonsoft.Json.dll
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Owin.dll
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\PagedList.dll
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\PagedList.Mvc.dll
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\QRCoder.dll
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Rotativa.dll
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\System.Web.Helpers.dll
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\System.Web.Mvc.dll
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\System.Web.Optimization.dll
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\System.Web.Razor.dll
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\System.Web.WebPages.Deployment.dll
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\System.Web.WebPages.dll
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\System.Web.WebPages.Razor.dll
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\UnityEngine.dll
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\WebGrease.dll
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\CaptchaMvc.pdb
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\CaptchaMvc.xml
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Gma.QrCodeNet.Encoding.pdb
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Gma.QrCodeNet.Encoding.xml
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\PagedList.xml
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\PagedList.Mvc.xml
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\System.Web.Helpers.xml
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\System.Web.Mvc.xml
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\System.Web.Optimization.xml
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\System.Web.Razor.xml
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\System.Web.WebPages.xml
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\System.Web.WebPages.Deployment.xml
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\System.Web.WebPages.Razor.xml
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Antlr3.Runtime.pdb
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Newtonsoft.Json.xml
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\EntityFramework.xml
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\EntityFramework.SqlServer.xml
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.Owin.xml
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.Owin.Security.xml
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.Owin.Security.Google.xml
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\obj\Debug\ekartes.csprojResolveAssemblyReference.cache
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\obj\Debug\ekartes.Migrations.InitialCreate.resources
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\obj\Debug\ekartes.Migrations.ConfirmPassword.resources
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\obj\Debug\ekartes.Migrations.ConfirmPassword2.resources
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\obj\Debug\ekartes.csproj.GenerateResource.Cache
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\obj\Debug\ekartes.dll
+E:\Πτυχιακή\Πτυχιακή Εργασία E-Kartes\ekartes\ekartes\obj\Debug\ekartes.pdb

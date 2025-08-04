@@ -1,0 +1,137 @@
+﻿@model PagedList.IPagedList<Ekartes.Models.Melos>
+@using PagedList.Mvc;
+
+<head>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".DatePicker").datepicker();
+        });
+    </script>
+    <title></title>
+</head>
+<link href="~/Content/PagedList.css" />
+
+@{
+    ViewBag.Title = "Μέλη";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div style="border: 3px solid;border-color:gray; margin-left: 25px; margin-right: 25px; padding: 0px; border-radius: 1em; background-color: #303030">
+    <h2 style="color:white; text-align: center;">Μέλη</h2>
+</div>
+
+<hr>
+
+<div class="form-horizontal">
+
+    <div style="border: 2px solid; margin-left: 25px; margin-right: 25px; padding: 0px; border-radius: 1em; background-color: white;">
+
+        <div style="background-color: lightgray; border-bottom: 2px solid; border-bottom-color: black; padding: 5px; border-top-right-radius: 1em; border-top-left-radius: 1em;">
+            <br />
+            <br />
+        </div>
+
+        <br />
+        @{
+            var fromDate = (DateTime)ViewBag.FromDate;
+            var toDate = (DateTime)ViewBag.ToDate;
+        }
+
+        @using (Html.BeginForm("Meli", "Admin", FormMethod.Get))
+        {
+            <div style="text-align:center">
+
+                <div>
+                    <b>Από: </b><input type="date" name="fromDate" />
+                     @*@Html.TextBox("fromDate", string.Format("{0: dd MMM yyyy}", fromDate), new { @class = "DatePicker" })*@
+                    <b>Έως: </b><input type="date" name="toDate" />
+                     @*@Html.TextBox("toDate", string.Format("{0: dd MMM yyyy}", toDate), new { @class = "DatePicker" })*@
+                    <input type="submit" value="Αναζήτηση" class="btn btn-primary btn-sm" />
+                </div>  
+            </div>
+            <br />
+        }
+
+
+        <table class="table">
+            <tr>
+                <th>Α/Α</th>
+                <th>
+                    ΑΤ
+                </th>
+                <th>
+                    Όνομα
+                </th>
+                <th>
+                    Επίθετο
+                </th>
+                <th>
+                    Συγγένεια
+                </th>
+                <th>
+                    Ημερομηνία Έκδοσης
+                </th>
+                <th>
+                    Ημερομηνία Λήξης
+                </th>
+                <th>
+                    Κωδικός Κάρτας
+                </th>
+                <th></th>
+            </tr>
+            @{
+                int count = 0;
+                foreach (var item in Model)
+                {
+                    count++;
+                    <tr>
+                        <td>@count</td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.AT)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Onoma)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Epitheto)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Sygeneia)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.HmniaEkdosis)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.HmniaLiksis)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.KwdikosKartas)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Λεπτομέρειες", "DetailsMelous", new { id = item.ID }) |
+                            @Html.ActionLink("Δικαιούχος", "DetailsDikaiouxou", new { id = item.Dikaiouxos.ID })
+
+                        </td>
+                    </tr>
+                }
+            }
+
+        </table>
+
+        <br />
+        <div style="text-align:center">
+            Σελίδα @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) από @Model.PageCount
+
+            @Html.PagedListPager(Model, page => Url.Action("Meli",
+            new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))
+        </div>
+
+        <div style="background-color: lightgray; border-top: 2px solid; border-top-color: black; padding: 5px; border-bottom-right-radius: 1em; border-bottom-left-radius: 1em;">
+            @Html.ActionLink("Πίσω", "Home")
+
+            <br />
+            <br />
+        </div>
+    </div>
+</div>

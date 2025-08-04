@@ -1,0 +1,55 @@
+﻿@{
+    ViewBag.Title = "E-kartes";
+}
+
+<div style="border: 3px solid; border-color: gray; margin-left: 150px; margin-right: 150px; padding: 0px; border-radius: 1em; background-color: #303030">
+    <h2 style="text-align:center;color:white;">Καλώς ήλθατε στην Ηλέκτρονική Εφαρμογή <img src="~/Images/logo.png" /></h2>
+</div>
+
+<hr />
+
+<br />
+<form style="text-align-last:center">
+    <p id="demo" style="text-align-last:center"></p>
+
+    <script type="text/javascript">
+
+        var picPaths = ['/Images/anapatsi.jpg', '/Images/cinema.jpg', '/Images/diamoni.jpg', '/Images/diamoni2.jpg', '/Images/diamoni3.jpg', '/Images/estiatorio1.jpg', '/Images/estiatorio2.jpg',
+        '/Images/kaay_1.jpg', '/Images/kaay_3.jpg', '/Images/KTIRIO.jpg'];
+        var curPic = -1;
+        //preload the images for smooth animation
+        var imgO = new Array();
+        for (i = 0; i < picPaths.length; i++) {
+            imgO[i] = new Image();
+            imgO[i].src = picPaths[i];
+        }
+
+        function swapImage() {
+            curPic = (++curPic > picPaths.length - 1) ? 0 : curPic;
+            imgCont.src = imgO[curPic].src;
+            setTimeout(swapImage, 5000);
+        }
+
+        window.onload = function () {
+            imgCont = document.getElementById('imgBanner');
+            swapImage();
+        }
+    </script>
+
+
+
+
+
+    <div>
+        <img id="imgBanner" src="" alt="" />
+    </div>
+
+
+
+</form>
+
+
+
+
+
+

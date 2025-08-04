@@ -1,0 +1,138 @@
+﻿@model Ekartes.Models.Melos
+
+@{
+    ViewBag.Title = "Ανανέωση Κάρτας Μέλους";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+@using (Html.BeginForm("Ananeosi", "Melos", null, FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div style="border: 3px solid;border-color:gray; margin-left: 100px; margin-right: 100px; padding: 0px; border-radius: 1em; background-color: #303030">
+        <h2 style="color:white; text-align: center;">Ανανέωση Κάρτας Μέλους</h2>
+    </div>
+
+    <hr />
+
+    <div style="border: 2px solid; margin-left: 100px; margin-right: 100px; padding: 0px;border-radius:1em">
+
+        <div style="background-color: lightgray; border-bottom: 2px solid; border-bottom-color: black; padding: 5px; border-top-right-radius: 1em; border-top-left-radius: 1em; ">
+            <br />
+            <br />
+        </div>
+
+        <div class="form-horizontal">
+
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            @Html.HiddenFor(model => model.AT)
+
+            <br />
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.AT, htmlAttributes: new { @class = "control-label col-md-4" })
+                <div class="col-md-8">
+                    @Html.EditorFor(model => model.AT, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.AT, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Onoma, htmlAttributes: new { @class = "control-label col-md-4" })
+                <div class="col-md-8">
+                    @Html.EditorFor(model => model.Onoma, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Onoma, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Epitheto, htmlAttributes: new { @class = "control-label col-md-4" })
+                <div class="col-md-8">
+                    @Html.EditorFor(model => model.Epitheto, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Epitheto, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Sygeneia, htmlAttributes: new { @class = "control-label col-md-4" })
+                <div class="col-md-8">
+                    @Html.EnumDropDownListFor(model => model.Sygeneia, htmlAttributes: new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.Sygeneia, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+
+            @if (Model.FilesMelos.Any(f => f.FileType == Ekartes.Models.FileType.FATayt_m))
+            {
+                <div class="form-group">
+                    <span class="control-label col-md-2"><strong>Τρέχων Φ/Α Ταυτότητας</strong></span>
+                    <div class="col-md-8">
+                        <iframe src="~/FileMelos?id=@Model.FilesMelos.First(f => f.FileType == Ekartes.Models.FileType.FATayt_m).ID" style="height:500px; width:500px;"></iframe>
+                    </div>
+                </div>
+            }
+
+            <div class="form-group">
+                @Html.Label("Νέο Φ/Α Ταυτότητας", new { @class = "control-label col-md-4" })
+                <div class="col-md-5">
+                    <input type="file" id="FATayt_m" name="upload" accept="application/pdf" />
+
+                    <div id="demo" class="collapse" style="text-align:justify;color:red;">
+                        Επιτρεπτός τύπος αρχείου: "PDF"
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <button type="button" class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#demo" style="margin-top:0px; margin-left:20px;">?</button>
+                </div>
+            </div>
+
+            <br />
+
+            @if (Model.FilesMelos.Any(f => f.FileType == Ekartes.Models.FileType.Photo_m))
+            {
+                <div class="form-group">
+                    <span class="control-label col-md-2"><strong>Τρέχων Φωτογραφία</strong></span>
+                    <div class="col-md-8">
+                        <a class="thumbnail">
+                            <img class="img-thumbnail" src="~/FileMelos?id=@Model.FilesMelos.First(f => f.FileType == Ekartes.Models.FileType.Photo_m).ID">
+                        </a>
+                    </div>
+                </div>
+            }
+
+            <div class="form-group">
+                @Html.Label("Νέα Φωτογραφία", new { @class = "control-label col-md-4" })
+                <div class="col-md-5">
+                    <input type="file" id="Photo_m" name="upload2" accept="image/*" />
+
+                    <div id="demo1" class="collapse" style="text-align:justify;color:red;">
+                        Επιτρεπτός τύπος αρχείου: "Εικόνα"
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <button type="button" class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#demo1" style="margin-top:0px; margin-left:20px;">?</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div style="text-align: center;">
+                    <input type="submit" value="Ανανέωση Κάρτας" class="btn btn-primary" onclick="return confirm('Με ατομική μου ευθύνη και γνωρίζοντας τις κυρώσεις, που πρβλέπονται από τις διατάξεις της παρ. 6 του άρθρου 22 του Ν.1599/1986, δηλώνω ότι όλα τα στοιχεία που καταχώρησα είναι αληθή και δέχομαι η Υπηρεσία να προβεί σε κάθε έλεγχο.');" />
+                </div>
+            </div>
+
+            <div style="background-color: lightgray; border-top: 2px solid; border-top-color: black; padding: 5px; border-bottom-right-radius: 1em; border-bottom-left-radius: 1em;">
+                @Html.ActionLink("Πίσω", "MeliDikaiouxou", new { id = Model.Dikaiouxos.ID })
+                <br />
+                <br />
+            </div>
+        </div>
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

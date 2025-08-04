@@ -1,0 +1,79 @@
+﻿@using CaptchaMvc.HtmlHelpers
+@using CaptchaMvc;
+
+@model Ekartes.Models.Dikaiouxos
+
+@{
+    ViewBag.Title = "Είσοδος";
+}
+
+<div style="border: 3px solid;border-color:gray; margin-left: 245px; margin-right: 245px; padding: 0px; border-radius: 1em; background-color: #303030">
+    <h2 style="color: white; text-align:center">Σύνδεση Χρήστη</h2>
+</div>
+<hr />
+
+<div class="row">
+    <div>
+        <section id="loginForm">
+            @using (Html.BeginForm("Login", "Dikaiouxos", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+            {
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                <div style="border: 2px solid; margin-left: 260px; margin-right: 260px; padding: 0px;border-radius:1em">
+                    <div style="background-color: lightgray; border-bottom: 2px solid; border-bottom-color: black; padding: 5px; border-top-right-radius: 1em; border-top-left-radius: 1em; ">
+                        <br />
+                        <br />
+                    </div>
+                    <br />
+
+                    <div class="form-group">
+                        <p class="control-label col-md-4" style="font-size:large"><b>Email χρήστη</b></p>
+                        <div class="col-md-8">
+                            @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+
+
+                    <div class="form-group">
+                        <p class="control-label col-md-4" style="font-size:large"><b>Συνθηματικό χρήστη</b></p>
+                        <div class="col-md-8">
+                            @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        <p class="control-label col-md-4" style="font-size:large"><b>Κωδικός Ασφαλείας</b></p>
+                        <div class="col-md-8">
+                            @*@Html.MathCaptcha()*@
+                            @Html.Captcha(5) 
+                            @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        <div style="text-align:center">
+                            <input type="submit" value="Είσοδος" class="btn btn-primary" />
+                        </div>
+                    </div>
+
+                    <div style="background-color: lightgray; border-top: 2px solid; border-top-color: black; padding: 5px; border-bottom-right-radius: 1em; border-bottom-left-radius: 1em;">
+                        <p>
+                            @Html.ActionLink("Δεν έχετε λογαριασμό; Εγγραφείτε ως νέος χρήστης", "Create")
+                        </p>
+                        <br />
+
+
+                    </div>
+                </div>
+            }
+        </section>
+    </div>
+</div>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

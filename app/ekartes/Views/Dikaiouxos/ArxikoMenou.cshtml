@@ -1,0 +1,103 @@
+﻿@model Ekartes.Models.Dikaiouxos
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body style="align-items:center">
+    @{
+        ViewBag.Title = "E-kartes";
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+
+    <a style="float:right;margin-right:100px;"><img src="~/Images/logo.png" />
+        </a>
+    <br />
+
+    <div style="border: 3px solid; border-color: gray; margin-left: 175px; margin-right: 175px; padding: 0px; border-radius: 1em; background-color: #303030">
+        <h2 style="color:white; text-align:center;margin-left:100px">Αρχικό Μενού</h2>
+    </div>
+    <hr />
+    <div style="border: 2px solid; margin-left: 175px; margin-right: 175px; padding: 0px;border-radius:1em">
+        <div style="background-color: lightgray; border-bottom: 2px solid; border-bottom-color: black; padding: 5px; border-top-right-radius: 1em; border-top-left-radius: 1em; ">
+            <br />
+            <br />
+        </div>
+        <br />
+        @{
+            if (@ViewBag.Flag == 1)
+            {
+                <div class="container body-content">
+
+                    <div class="col-md-5">
+                        <button class="btn btn-primary btn-lg btn-block" style="height:90px;border:10px double;border-radius:2em">@Html.ActionLink("Προσθήκη Μέλους", "Create", "Melos", new { id = Model.ID }, new { @style = "color:white" })</button>
+                        <div id="demo" class="collapse" style="text-align:justify">
+                            Εάν επιθυμείτε να καταχωρήσετε για πρώτη φορά ένα μέλος σας.
+                        </div>
+                    </div>
+                    <div class="col-md-1">
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo" style="margin-top:22px">?</button>
+                    </div>
+
+                    <div class="col-md-5">
+                        <button class="btn btn-primary btn-lg btn-block" style="height: 90px; border: 10px double; border-radius: 2em">@Html.ActionLink("Τα μέλη μου", "MeliDikaiouxou", "Melos", new { id = Model.ID }, new { @style = "color:white" })</button>
+                        <div id="demo3" class="collapse" style="text-align:justify">
+                            Εάν επιθυμείτε την προβολή των μελών σας.
+                        </div>
+                    </div>
+                    <div class="col-md-1">
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo3" style="margin-top:22px">?</button>
+                    </div>
+                </div>
+
+                <br />
+                <br />
+
+                <div class="container body-content">
+                    <div class="col-md-5">
+                        <button class="btn btn-primary btn-lg btn-block" style="height: 90px; border: 10px double; border-radius: 2em">@Html.ActionLink("Επεξεργασία Στοιχείων", "Edit", "Dikaiouxos", new { id = Model.ID }, new { @style = "color:white" })</button>
+                        <div id="demo4" class="collapse" style="text-align:justify">
+                            Εαν επιθυμείτε να προβάλλετε η να επεξεργαστείτε τα προσωπικά σας στοιχεία.
+                        </div>
+                    </div>
+                    <div class="col-md-1">
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo4" style="margin-top:22px">?</button>
+                    </div>
+
+                    <div class="col-md-5">
+                        <button class="btn btn-primary btn-lg btn-block" style="height: 90px; border: 10px double; border-radius: 2em" onclick="return confirm('ΠΡΟΣΟΧΗ! Έχετε δυνατότητα να εκτυπώσετε την κάθε κάρτα ΜΟΝΟ μία φορά.');">@Html.ActionLink("Εκτύπωση Κάρτας", "MeliDikaiouxouEkt", "Melos", new { id = Model.ID }, new { @style = "color:white" })</button>
+                        <div id="demo5" class="collapse" style="text-align:justify">
+                            Εάν επιθυμείτε την εκτύπωση μιας ή περισσότερων καρτών.
+                        </div>
+                    </div>
+                    <div class="col-md-1">
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo5" style="margin-top:22px">?</button>
+                    </div>
+                </div>
+            }
+            else
+            {
+               <div>
+                   <p style="text-align:center;color:red">
+                       <b>Το αίτημά σας βρίσκεται σε αναμονή. Σύντομα, θα ενημερωθείτε με email για την εξέλιξή του.</b>
+                   </p>
+               </div>
+            }
+
+
+
+        }
+        
+        <br />
+        <div style="background-color: lightgray; border-top: 2px solid; border-top-color: black; padding: 5px; border-bottom-right-radius: 1em; border-bottom-left-radius: 1em;">
+            <br />
+            <br />
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+

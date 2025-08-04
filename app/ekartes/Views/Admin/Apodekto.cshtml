@@ -1,0 +1,38 @@
+﻿@model Ekartes.Models.Aitima
+
+@{
+    ViewBag.Title = "MiApodekto";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div style="border: 3px solid; border-color: gray; margin-left: 250px; margin-right: 250px; padding: 0px; border-radius: 1em; background-color: #303030">
+    <h2 style="color:white;text-align:center;">Σχόλια</h2>
+</div>
+<hr />
+<div style="border: 2px solid; margin-left: 250px; margin-right:250px; padding: 0px;border-radius:1em;background-color:white">
+    <div style="background-color: lightgray; border-bottom: 2px solid; border-bottom-color: black; padding: 5px; border-top-right-radius: 1em; border-top-left-radius: 1em; ">
+        <br />
+        <br />
+    </div>
+    <br />
+    <br />
+    <br />
+    <form action="MAILTO:@Model.Dikaiouxos.Email" method="post" enctype="text/plain" style="text-align:center">
+        <b>Σχόλιο:</b>
+        <br />
+        <textarea rows="10" cols="100" type="text" name="Comment" value="">Το αίτημά σας έχει εγκριθεί!</textarea>
+        <br />
+        <br />
+        <input class="btn btn-primary" type="submit" value="Αποστολή" />
+        <input class="btn btn-primary" type="reset" value="Εκκαθάριση" />
+
+    </form>
+    <br />
+    <br />
+    <br />
+    <div style="background-color: lightgray; border-top: 2px solid; border-top-color: black; padding: 5px; border-bottom-right-radius: 1em; border-bottom-left-radius: 1em;">
+        @Html.ActionLink("Πίσω", "Aitimata", "Admin")
+        <br />
+        <br />
+    </div>
+</div>

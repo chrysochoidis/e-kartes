@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top" style="background-color:#0072C6;border-bottom:solid">
+        <div class="container">
+            <div class=" navbar-header" style="height:100px">
+                <p style="color:white;margin-top:15px;margin-left:100px"><b>Γενικό Επιτελείο Στρατού<br />Διεύθυνση Ενημέρωσης<br />και Δημοσίων Σχέσεων</b></p>
+                <button type="button" style="background-color:#0072C6" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <p style="margin-top:-80px">
+                    <a href="@Url.Action("Index", "Home")">
+
+                        <img src="~/Images/GES3.png" />
+                    </a>
+                </p>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav" style="margin-left:100px">
+                    @if (@User.Identity.IsAuthenticated)
+                    {
+                        Ekartes.DAL.ekartesDbContext db = new Ekartes.DAL.ekartesDbContext();
+
+                        var getid = db.Dikaiouxos.Where(u => u.Email == @User.Identity.Name).Select(u => u.ID);
+                        var materializeGetid = getid.ToList();
+                        var ident = materializeGetid[0];
+                        int ID = ident;
+                        
+                        <li>
+                            <button class="btn btn-info" style="margin-top:30px;height:40px;width:120px;text-align:center;"> @Html.ActionLink("Αρχική Σελίδα", "ArxikoMenou", "Dikaiouxos", new { id = ID }, new { @style = "color:white" }) </button> 
+                        </li>
+                    }
+                    
+                    <li>
+                        <button class="btn btn-info" style="margin-top:30px;margin-left:10px;height:40px;width:120px;text-align:center;">@Html.ActionLink("Σχετικά", "About", "Home", null, new { @style = "color:white" })</button>
+                    </li>
+                    <li>
+                        <button class="btn btn-info " style="margin-top:30px;margin-left:10px;height:40px;width:120px;text-align:center;">@Html.ActionLink("Επικοινωνία", "Contact", "Home", null, new { @style = "color:white" })</button>
+                    </li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+
+                    @if (@User.Identity.IsAuthenticated)
+                    {
+                        Ekartes.DAL.ekartesDbContext db = new Ekartes.DAL.ekartesDbContext();
+
+                        var getid = db.Dikaiouxos.Where(u => u.Email == @User.Identity.Name).Select(u => u.ID);
+                        var materializeGetid = getid.ToList();
+                        var ident = materializeGetid[0];
+                        int ID = ident;
+                        
+                        <li>
+                            <button class="btn btn-success dropdown-toggle" type="button" data-toggle="dropdown" style="margin-top :10px;margin-right:10px"> @User.Identity.Name<span class="success"></span></button>
+                            <ul class="dropdown-menu" style="background-color:lightgray">
+                                <li>@Html.ActionLink("Αλλαγή Συνθηματικού","Manage","Dikaiouxos",new {id = ID}, new {@style = "color:black"})</li>
+                                <li>@Html.ActionLink("Αποσύνδεση", "Logout", "Dikaiouxos", new { id = ID }, new { @style = "color:black" })</li>
+                            </ul>
+                        </li>
+                    }
+                    else
+                    {
+                        <li>
+                            <button class="btn btn-success" style="margin-top :10px;margin-right:10px"> @Html.ActionLink("Εγγραφή", "Create", "Dikaiouxos", null, new { @style = "color:white" })</button>
+                        </li>
+                        <li>
+                            <button class="btn btn-success" style="margin-top :10px;margin-right:10px"> @Html.ActionLink("Σύνδεση", "Login", "Dikaiouxos", null, new { @style = "color:white" }) </button>
+                        </li>
+                    }
+
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <div class="container body-content" style="padding-top:75px;padding-bottom:120px">
+        @RenderBody()
+        <footer>
+            <div class="navbar navbar-fixed-bottom" style="background-color:#0072C6;height:100px;border-top:solid">
+
+                <p class="col-md-offset-2" style="color:white;margin-top:10px;float:left">
+                    <a>
+                        <img src="~/Images/SEP.gif" />
+                    </a>
+                    <b>&copy; @DateTime.Now.Year - ΣΠΗΥ 122 Εκπαιδευτική Σειρά @Html.ActionLink(".", "EasterEgg", "Home", null, new { @style = "color:#0072C6" })</b>
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

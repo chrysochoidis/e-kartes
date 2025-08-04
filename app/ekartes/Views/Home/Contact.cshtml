@@ -1,0 +1,61 @@
+﻿@{
+    ViewBag.Title = "Επικοινωνία";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div style="border: 3px solid; border-color: gray; margin-left: auto; margin-right: auto; padding: 0px; border-radius: 1em; background-color: #303030">
+    <h2 style="color:white; text-align:center;">Επικοινωνία</h2>
+</div>
+<hr />
+
+<address>
+    Γενικό Επιτελείο Στρατού <br />
+    Διεύθυνση Ενημέρωσης <br />
+    και Δημοσίων Σχέσεων/2 <br /><br />
+    Λ. Μεσογείων 227 - 231,<br />
+    Χολαργός, Τ.Κ. 15561,<br />
+    Ελλάδα<br />
+    Τηλέφωνο Επικοινωνίας: 2106553171<br />
+    E-mail: gesdendhs2@army.gr
+</address>
+
+<p>
+    Για οποιαδήποτε απορία, συμπληρώστε τα παρακάτω στοιχεία και
+    θα επικοινωνήσουμε το ταχύτερο δυνατό με εσάς.
+</p>
+
+<hr />
+
+<div>
+    <div style="border: 3px solid; border-color: gray; margin-left: auto; margin-right: auto; padding: 0px; border-radius: 1em; background-color: #303030; ">
+        <h2 style="color:white; text-align:center;">Φόρμα Επικοινωνίας</h2>
+    </div>
+    <hr />
+
+    <form action="MAILTO:gesdendhs2@army.gr" method="post" enctype="text/plain">
+        Όνομα:
+        <br />
+        <input type="text" name="Name" value="" size="20" />
+        <br />
+        Επώνυμο:
+        <br />
+        <input type="text" name="Lastname" value="" size="20" />
+        <br />
+        Mail:
+        <br />
+        <input type="text" name="Mail" value="" size="20" />
+        <br />
+        Σχόλιο:
+        <br />
+        <textarea rows="10" cols="30" type="text" name="Comment" value=""></textarea>
+        <br />
+        <br />
+        <input type="submit" value="Αποστολή" class="btn btn-primary" />
+        <input type="reset" value="Εκκαθάριση" class="btn btn-primary" />
+    </form>
+</div>
+
+<hr />
+
+

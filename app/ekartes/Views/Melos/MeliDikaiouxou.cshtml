@@ -1,0 +1,95 @@
+﻿@model IEnumerable<Ekartes.Models.Melos>
+
+@{
+    ViewBag.Title = "Τα Μέλη μου";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div style="border: 3px solid;border-color:gray; margin-left: 25px; margin-right: 25px; padding: 0px; border-radius: 1em; background-color: #303030">
+    <h2 style="color:white; text-align: center;">Τα Μέλη μου</h2>
+</div>
+
+<hr>
+
+<div class="form-horizontal">
+
+    <div style="border: 2px solid; margin-left: 25px; margin-right: 25px; padding: 0px;border-radius:1em">
+
+        <div style="background-color: lightgray; border-bottom: 2px solid; border-bottom-color: black; padding: 5px; border-top-right-radius: 1em; border-top-left-radius: 1em; ">
+            <br />
+            <br />
+        </div>
+
+        <br />
+        <table class="table">
+            <tr>
+                <th>
+                    Α/Α
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.AT)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Onoma)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Epitheto)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Sygeneia)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.HmniaEkdosis)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.KwdikosKartas)
+                </th>
+                <th></th>
+            </tr>
+
+            @{
+                
+                int count = 0; 
+                foreach (var item in Model)
+                {
+                        count++;
+                    <tr>
+                        <td>@count</td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.AT)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Onoma)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Epitheto)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Sygeneia)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.HmniaEkdosis)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.KwdikosKartas)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Λεπτομέρειες", "Details", new { id = item.ID }) |
+                            @Html.ActionLink("Ανανέωση", "Ananeosi", new { id = item.ID }) |
+                            @Html.ActionLink("Επανέκδοση", "Epanekdosi", new { id = item.ID })
+                            @*@Html.ActionLink("Εκτύπωση Κάρτας", "Ektyposi", new { id = item.ID })*@
+                        </td>
+                    </tr>
+                }
+     }
+
+        </table>
+
+        <div style="background-color: lightgray; border-top: 2px solid; border-top-color: black; padding: 5px; border-bottom-right-radius: 1em; border-bottom-left-radius: 1em;">
+            @Html.ActionLink("Πίσω", "ArxikoMenou", "Dikaiouxos", new { id = @ViewBag.Dik_ID }, null)
+
+            <br />
+            <br />
+        </div>
+    </div>
+</div>
